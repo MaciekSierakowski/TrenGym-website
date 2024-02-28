@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrenGym</title>
+    <link rel="stylesheet" href="style_projekt.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" style="max-width: 100%;">
+    </header>
+    <div class="quick-access-bar">
+        <button id="quick_access" style="float: left; margin-right: 5px;" class="scroll-button" data-target="general-info">Informacje ogólne</button>
+        <button id="quick_access" style="float: left; margin-right: 5px;" class="scroll-button" data-target="gallery">Galeria</button>
+        <button id="quick_access" style="float: left;" class="scroll-button" data-target="contact">Kontakt</button>
+        <a href="index.php"><button id="login-button">Zaloguj</button></a>
+        <a href="rejestracja.php"><button id="registration-button">Rejestracja</button></a>
+    </div>
+
+    <div class="content">
+        <section class="general-info" id="general-info">
+            <h2>Informacje ogólne</h2>
+            <p>
+                Witamy na Naszej Siłowni! Jesteśmy miejscem, które kocha promowanie zdrowego stylu życia i aktywności fizycznej. Nasza siłownia oferuje nowoczesne i kompleksowe podejście do treningu, które obejmuje zarówno aspekty fizyczne, jak i psychiczne.
+            </p>
+            <p>
+                <strong>Nasze Cele:</strong>
+                <ol>
+                    <li><strong>Zdrowie i Witalność:</strong> Chcemy wspierać naszych członków w osiąganiu doskonałego zdrowia i pełnej witalności poprzez regularne ćwiczenia i zdrową dietę.</li>
+                    <br>
+                    <li><strong>Wsparcie dla Każdego:</strong> Bez względu na poziom zaawansowania, każdy jest mile widziany. Oferujemy różnorodne programy treningowe dostosowane do różnych umiejętności i celów.</li>
+                    <br>
+                    <li><strong>Społeczność i Motywacja:</strong> Tworzymy przyjazne środowisko, gdzie ludzie mogą się wzajemnie wspierać. Motywujemy się nawzajem do osiągania lepszych wyników.</li>
+                    <br>
+                    <li><strong>Profesjonalna Kadra:</strong> Nasza doświadczona kadra trenerska jest gotowa pomóc w opracowaniu spersonalizowanego planu treningowego, odpowiedzieć na pytania i motywować Cię na każdym kroku.</li>
+                </ol>
+            </p>
+            <p>
+                <strong>Nasza Infrastruktura:</strong>
+                <ul>
+                    <li><strong>Nowoczesny Sprzęt:</strong> Posiadamy najnowszy sprzęt treningowy, który umożliwia skuteczne i bezpieczne treningi.</li>
+                    <br>
+                    <li><strong>Sale Treningowe:</strong> Oferujemy różnorodne zajęcia grupowe w naszych specjalnie dostosowanych salach.</li>
+                    <br>
+                    <li><strong>Strefa Relaksu:</strong> Po intensywnym treningu zapraszamy do strefy relaksu, gdzie możesz zregenerować siły.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Dołącz do Nas!</strong> Niezależnie od tego, czy jesteś nowicjuszem, czy doświadczonym sportowcem, nasza siłownia jest idealnym miejscem do osiągania swoich celów. Dołącz do naszej społeczności i rozpocznij podróż do zdrowszego i bardziej aktywnego życia już dziś!
+            </p>
+            <div>
+                <h3><strong>Karnet Open Siłownia TrenGym</strong></h3>
+                
+                <h4><strong>Korzyści karnetu:</strong></h4>
+                <ul>
+                    <li>Dostęp do wszystkich stref siłowni o każdej porze</li>
+                    <li>Treningi personalne z doświadczonymi trenerami</li>
+                    <li>Uczestnictwo w zajęciach grupowych</li>
+                    <li>Rabaty na produkty i usługi partnerów</li>
+                </ul>
+                
+                <p>Dołącz do karnetu Open już dziś!</p>
+
+                <h3><strong>Karnet Poranny Siłownia TrenGym</strong></h3>
+                
+                <h4><strong>Korzyści karnetu:</strong></h4>
+                <ul>
+                    <li>Dostęp do wszystkich stref siłowni do godziny 13</li>
+                    <li>Treningi personalne z doświadczonymi trenerami</li>
+                    <li>Rabaty na produkty i usługi partnerów</li>
+                </ul>
+                
+                <p>Dołącz do karnetu Porannego już dziś!</p>
+            </div>
+
+        </section>
+        <section class="gallery" id="gallery">
+            <h2>Galeria</h2>
+            <div class="image-container">
+                <div class="gallery-image">
+                    <img src="image1.jpg" alt="Zdjęcie 1">
+                    <button class="prev-button" onclick="changeImage(-1)">&#8249;</button>
+                    <button class="next-button" onclick="changeImage(1)">&#8250;</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <section class="contact">
+            <p style="font-size: large;"><strong>Kontakt</strong></p>
+            <p><strong>Numer telefonu:</strong> 791505777</p>
+            <p><strong>Adres:</strong> Biała Podlaska, ul. Docelowa 1</p>
+            <p><strong>E-mail:</strong> trengym@wp.pl</p>
+        </section>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>

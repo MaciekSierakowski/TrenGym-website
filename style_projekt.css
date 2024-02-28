@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.quick-access-bar {
+    background-color: red;
+    padding: 10px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+#quick_access{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#quick_access:hover{
+    background-color: darkred;
+}
+
+#registration-button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#registration-button:hover{
+    background-color: darkred;
+}
+
+#login-button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#login-button:hover {
+    background-color: darkred;
+}
+
+.content {
+    padding: 20px;
+}
+
+.general-info, .gallery {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    position: relative;
+}
+
+.gallery-image img {
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border: 3px darkred solid;
+}
+
+.gallery-image img:active{
+    transform: scale(1.5);
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+h2 {
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact {
+    color: black;
+}
